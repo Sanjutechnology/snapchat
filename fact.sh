@@ -11,5 +11,5 @@ do
         exit
     fi
 done
-echo "Prime number"
+echo " It is a Prime number"
 
