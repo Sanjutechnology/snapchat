@@ -7,7 +7,7 @@ fi
 for (( i=2; i<num; i++ ))
 do
     if (( num % i == 0 )); then
-        echo "Not a prime number"
+        echo "This is not a prime number"
         exit
     fi
 done
