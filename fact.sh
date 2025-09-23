@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Enter a number: " num
+read -p "Enter the number: " num
 if (( num <= 1 )); then
     echo "This is not a prime number"
     exit
