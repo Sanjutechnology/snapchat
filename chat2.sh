@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Enter a numbers: " n
+read -p "Enter numbers: " n
 fact=1
 for (( i=1; i<=n; i++ ))
 do
