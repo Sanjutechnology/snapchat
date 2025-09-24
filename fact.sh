@@ -1,13 +1,13 @@
 #!/bin/bash
-read -p "Enter a number: " num
+read -p "Enter the number: " num
 if (( num <= 1 )); then
-    echo "Not a prime number"
+    echo "This is not a prime number"
     exit
 fi
 for (( i=2; i<num; i++ ))
 do
     if (( num % i == 0 )); then
-        echo "Not a prime number"
+        echo "This is not a prime nuum"
         exit
     fi
 done
